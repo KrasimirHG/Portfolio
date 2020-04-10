@@ -26,7 +26,6 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js"></script>
 
-		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="jquery.mCustomScrollbar.css" />
 	</head>
 	<body>
@@ -118,7 +117,7 @@
 						<a
 							href="https://int-creditcard.netlify.com/"
 							data-toggle="tooltip"
-							title="Interactive credit card buikd in Vanilla JS"
+							title="Interactive credit card build in Vanilla JS"
 							target="_blank"
 						>
 							<img src="img/CreditCard.png" alt="Credit Card"
@@ -148,7 +147,8 @@
 							<img src="img/CosmosPics.png" alt="CosmosPics"
 						/></a>
 					</div>
-
+				</div>
+				<div class="row p-3">
 					<div class="thumbs col">
 						<a
 							href="https://ofistehnika.com"
@@ -159,8 +159,6 @@
 							<img src="img/Ofistehnika.png" alt="Ofistehnika"
 						/></a>
 					</div>
-				</div>
-				<div class="row p-3">
 					<div class="thumbs col">
 						<a
 							href="https://codepen.io/Krasio/pen/zXRKLM"
@@ -181,6 +179,8 @@
 							<img src="img/Markdown.png" alt="Markdown"
 						/></a>
 					</div>
+				</div>
+				<div class="row p-3">
 					<div class="thumbs col">
 						<a
 							href="https://codepen.io/Krasio/full/KEOOEo"
@@ -191,8 +191,6 @@
 							<img src="img/DrumMachineV2.png" alt="DrumMachineV2"
 						/></a>
 					</div>
-				</div>
-				<div class="row p-3">
 					<div class="thumbs col">
 						<a
 							href="https://codepen.io/Krasio/pen/OGXJpP"
@@ -213,7 +211,33 @@
 							<img src="img/PomodoroClock.png" alt="PomodoroClock"
 						/></a>
 					</div>
+				</div>
+				<div class="row p-3">
 					<div class="thumbs col">
+						<a
+							href="https://codepen.io/Krasio/full/OqvZOo"
+							data-toggle="tooltip"
+							title="Random Quote Machine in React"
+							target="_blank"
+						>
+							<img
+								src="img/RandomQuotesMachine.png"
+								alt="RandomQuotesMachine"
+						/></a>
+					</div>
+					<div class="thumbs col" style="visibility:hidden;">
+						<a
+							href="https://codepen.io/Krasio/full/OqvZOo"
+							data-toggle="tooltip"
+							title="Random Quote Machine in React"
+							target="_blank"
+						>
+							<img
+								src="img/RandomQuotesMachine.png"
+								alt="RandomQuotesMachine"
+						/></a>
+					</div>
+					<div class="thumbs col" style="visibility:hidden;">
 						<a
 							href="https://codepen.io/Krasio/full/OqvZOo"
 							data-toggle="tooltip"
@@ -463,7 +487,7 @@
 					easing: "easeInOutQuad",
 					duration: 2250,
 
-					delay: anime.stagger(200, { start: 10000 })
+					delay: anime.stagger(200, { start: 10000 }),
 				});
 			});
 		</script>
@@ -488,15 +512,15 @@
 						axis: "y",
 						theme: "inset",
 						advanced: {
-							autoExpandVerticalScroll: true
+							autoExpandVerticalScroll: true,
 						},
 						scrollButtons: {
 							enable: true,
-							scrollType: "stepped"
+							scrollType: "stepped",
 						},
 						keyboard: { scrollType: "stepped" },
 						snapAmount: amount,
-						mouseWheel: { scrollAmount: amount }
+						mouseWheel: { scrollAmount: amount },
 					});
 				});
 			})(jQuery);
